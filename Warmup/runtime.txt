@@ -1,0 +1,12 @@
+Runtimes:
+for --systemcalls:
+real:5.541s
+user:1.462s
+sys:4.089s
+
+Without Systemcalls (using stdio library)
+real:2.097s
+user:.913s
+sys:1.827s
+
+System calls are costly and end up taking more time to run programs than ones that call the standard library. This is why --systemcalls running of the program takes more time than using the stdio library.

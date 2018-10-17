@@ -1,0 +1,5 @@
+To compile the files run the makefile by typing make intp the termnial window. 
+To run each of the methods(process and thread methods) look at proxy.c and look at the main() method.
+If you want to run multiprocess version make sure the threadmain is commented out. 
+If you want to run threaded version make sure the processmain() is commented out. 
+
